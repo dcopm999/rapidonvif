@@ -4,46 +4,46 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 include_directories(include onvifgen)
 
-add_library(onvifclient SHARED include/onvifclient.hpp)
+add_library(onvifclient STATIC include/onvifclient.hpp)
 set_target_properties(onvifclient PROPERTIES LINKER_LANGUAGE CXX)
 
-add_library(onvifclientptz SHARED include/onvifclientptz.hpp)
+add_library(onvifclientptz STATIC include/onvifclientptz.hpp)
 set_target_properties(onvifclientptz PROPERTIES LINKER_LANGUAGE CXX)
 
-add_library(onvifclientsearch SHARED include/onvifclientsearch.hpp)
+add_library(onvifclientsearch STATIC include/onvifclientsearch.hpp)
 set_target_properties(onvifclientsearch PROPERTIES LINKER_LANGUAGE CXX)
 
-add_library(onvifclientdevice SHARED include/onvifclientdevice.hpp)
+add_library(onvifclientdevice STATIC include/onvifclientdevice.hpp)
 set_target_properties(onvifclientdevice PROPERTIES LINKER_LANGUAGE CXX)
 
-add_library(onvifclientreceiver SHARED include/onvifclientreceiver.hpp)
+add_library(onvifclientreceiver STATIC include/onvifclientreceiver.hpp)
 set_target_properties(onvifclientreceiver PROPERTIES LINKER_LANGUAGE CXX)
 
-add_library(onvifclientevent SHARED include/onvifclientevent.hpp)
+add_library(onvifclientevent STATIC include/onvifclientevent.hpp)
 set_target_properties(onvifclientevent PROPERTIES LINKER_LANGUAGE CXX)
 
-add_library(onvifclientrecording SHARED include/onvifclientrecording.hpp)
+add_library(onvifclientrecording STATIC include/onvifclientrecording.hpp)
 set_target_properties(onvifclientrecording PROPERTIES LINKER_LANGUAGE CXX)
 
-add_library(onvifclientimaging SHARED include/onvifclientimaging.hpp)
+add_library(onvifclientimaging STATIC include/onvifclientimaging.hpp)
 set_target_properties(onvifclientimaging PROPERTIES LINKER_LANGUAGE CXX)
 
-add_library(onvifclientremotediscovery SHARED include/onvifclientremotediscovery.hpp)
+add_library(onvifclientremotediscovery STATIC include/onvifclientremotediscovery.hpp)
 set_target_properties(onvifclientremotediscovery PROPERTIES LINKER_LANGUAGE CXX)
 
-add_library(onvifclientmedia SHARED include/onvifclientmedia.hpp)
+add_library(onvifclientmedia STATIC include/onvifclientmedia.hpp)
 set_target_properties(onvifclientmedia PROPERTIES LINKER_LANGUAGE CXX)
 
-add_library(onvifclientreplay SHARED include/onvifclientreplay.hpp)
+add_library(onvifclientreplay STATIC include/onvifclientreplay.hpp)
 set_target_properties(onvifclientreplay PROPERTIES LINKER_LANGUAGE CXX)
 
-add_library(onvifserver SHARED include/onvifserver.hpp)
+add_library(onvifserver STATIC include/onvifserver.hpp)
 set_target_properties(onvifserver PROPERTIES LINKER_LANGUAGE CXX)
 
-add_library(onvifserverdevice SHARED include/onvifserverdevice.hpp)
+add_library(onvifserverdevice STATIC include/onvifserverdevice.hpp)
 set_target_properties(onvifserverdevice PROPERTIES LINKER_LANGUAGE CXX)
 
-add_library(onvifserverevent SHARED include/onvifserverevent.hpp)
+add_library(onvifserverevent STATIC include/onvifserverevent.hpp)
 set_target_properties(onvifserverevent PROPERTIES LINKER_LANGUAGE CXX)
 
 
